@@ -1,5 +1,7 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+![demo-app](https://s5.gifyu.com/images/S8FIC.gif)
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
@@ -82,4 +84,3 @@ To learn more about React Native, take a look at the following resources:
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 # DevsuApp
 
-![demo-app](https://gifyu.com/image/S8FIC)
