@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "strict": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@context/*": ["./src/context/*"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@translations/*": ["./src/translations/*"],
+      "@hooks/*": ["./src/hooks/*"]
+    }
+  },
+  "target": "ESNext",
+  "noEmit": true,
+  "resolveJsonModule": true,
+  "types": ["jest"],
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  // "exclude": ["__tests__/**/*-test.ts", "src"]
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}
